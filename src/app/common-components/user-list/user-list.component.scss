@@ -1,0 +1,6 @@
+.user-item {
+  cursor: pointer;
+  &.selected {
+    background-color: #00b5ff8a;
+  }
+}

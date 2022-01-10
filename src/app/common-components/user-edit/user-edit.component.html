@@ -1,0 +1,12 @@
+<form [formGroup]="form"
+      (ngSubmit)="submit()"
+      novalidate>
+  <input type="text" formControlName="name"/>
+  <select formControlName="type">
+    <option [ngValue]="typeValues.Admin">Admin</option>
+    <option [ngValue]="typeValues.User">User</option>
+  </select>
+
+  <button type="button" (click)="reset()">Cancel</button>
+  <button type="submit">Submit</button>
+</form>

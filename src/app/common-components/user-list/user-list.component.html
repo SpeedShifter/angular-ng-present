@@ -1,0 +1,8 @@
+<ul>
+  <li *ngFor="let user of users; trackBy: trackById"
+      class="user-item"
+      (click)="onUserClick(user)"
+      [class.selected]="isUserSelected(user)">
+    <app-user-list-item [user]="user"></app-user-list-item>
+  </li>
+</ul>
