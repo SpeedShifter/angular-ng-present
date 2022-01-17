@@ -7,7 +7,7 @@ import {promisesWayPaths} from "./promises-way/promises-way-paths";
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  // changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class AppComponent {
   rxjsPath = rxjsWayPaths.main;

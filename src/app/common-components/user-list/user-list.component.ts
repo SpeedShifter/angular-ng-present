@@ -5,7 +5,7 @@ import {User, UserId} from "../../users-service/user.model";
   selector: 'app-user-list',
   templateUrl: './user-list.component.html',
   styleUrls: ['./user-list.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  // changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class UserListComponent implements OnInit {
 
